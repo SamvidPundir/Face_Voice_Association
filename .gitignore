@@ -1,0 +1,20 @@
+# Whitelist: ignore everything, then allow only code and docs.
+*
+!*/
+!.gitignore
+!README.md
+!requirements.txt
+!*.py
+
+# never track these, even if they contain .py files
+venv312/
+.venv/
+__pycache__/
+raw/
+report/
+results/
+results_scaling/
+models/weights/
+data/clips/
+data/clips_dev/
+tests/fake/

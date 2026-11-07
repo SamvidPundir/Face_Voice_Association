@@ -1,0 +1,19 @@
+# Python 3.12. Install CUDA PyTorch first (see README), then:
+#   pip install -r requirements.txt
+#   pip install --force-reinstall --no-deps torch==2.6.0 torchaudio==2.6.0 --index-url https://download.pytorch.org/whl/cu124
+torch==2.6.0
+torchaudio==2.6.0
+onnxruntime-gpu==1.22.0
+speechbrain
+av
+opencv-python
+numpy
+pandas
+scikit-learn
+h5py
+matplotlib
+Pillow
+tqdm
+requests
+huggingface_hub
+gradio
